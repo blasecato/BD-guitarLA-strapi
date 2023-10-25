@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "courses",
+  "info": {
+    "singularName": "course",
+    "pluralName": "courses",
+    "displayName": "courses"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit sapien luctus magna cursus, vitae commodo eros eleifend. Integer vitae quam erat. Cras placerat luctus risus sit amet commodo. Donec varius, purus non varius eleifend, orci erat tincidunt nisi, ac fringilla tellus quam quis lorem. Quisque quis magna sed risus ultricies efficitur. Sed accumsan sapien non nisl egestas convallis. Mauris vulputate neque justo, in volutpat felis porttitor non. Nam mattis egestas commodo. Morbi dapibus dui eget laoreet laoreet.",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
